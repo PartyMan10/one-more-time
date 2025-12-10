@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://bw3v2irar8374"]
+
+[ext_resource type="Texture2D" uid="uid://cqqbym0y4mnsc" path="res://ASSET/IMAGE/PlaygroundImage1.jpeg" id="1_dxvsd"]
+
+[node name="bakground" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+
+[node name="PlaygroundImage1" type="Sprite2D" parent="."]
+position = Vector2(572, 261)
+scale = Vector2(0.9479167, 0.63151044)
+texture = ExtResource("1_dxvsd")
