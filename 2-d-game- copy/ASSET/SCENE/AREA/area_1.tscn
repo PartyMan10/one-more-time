@@ -1,7 +1,8 @@
-[gd_scene load_steps=19 format=3 uid="uid://bq4ufd75ik76"]
+[gd_scene load_steps=20 format=3 uid="uid://bq4ufd75ik76"]
 
-[ext_resource type="Texture2D" uid="uid://cw42q5011jxi7" path="res://ASSET/IMAGE/pixil-frame-0-2.png" id="1_7se0s"]
-[ext_resource type="Texture2D" uid="uid://c1nou4cb3mxfl" path="res://ASSET/IMAGE/pixil-frame-0-4 copy.png" id="2_b4baf"]
+[ext_resource type="Texture2D" uid="uid://fhx7gne3u48j" path="res://ASSET/IMAGE/pixil-frame-0-2.png" id="1_7se0s"]
+[ext_resource type="Texture2D" uid="uid://c44ndnb63euqc" path="res://ASSET/IMAGE/New Piskel (1).png" id="1_jt1qh"]
+[ext_resource type="Texture2D" uid="uid://djkmbdfmbvvyc" path="res://ASSET/IMAGE/pixil-frame-0-4 copy.png" id="2_b4baf"]
 [ext_resource type="PackedScene" uid="uid://b3yfxv4mwpd0e" path="res://ASSET/SCENE/player.tscn" id="2_oerlu"]
 [ext_resource type="Texture2D" uid="uid://bc2ymgau264qu" path="res://ASSET/IMAGE/pixil-frame-0-4 copy 2.png" id="4_rhffh"]
 [ext_resource type="Texture2D" uid="uid://b6w75kjysp5nr" path="res://ASSET/IMAGE/pixil-frame-0-4 copy 3.png" id="5_b4baf"]
@@ -53,7 +54,7 @@ texture_region_size = Vector2i(100, 100)
 0:0/0 = 0
 0:0/0/terrain_set = 0
 0:0/0/terrain = 0
-0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-46.223694, -50, 46.583405, -50, 45.863976, -16.45707, 44.06539, -16.097355, 36.51133, -17.536224, 29.316978, -16.816788, -43.88553, -16.636929, -46.04383, -16.636929)
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-46.2237, -50, 46.5834, -50, 45.864, -16.4571, 44.0654, -16.0974, 36.5113, -17.5362, 29.317, -16.8168, -43.8855, -16.6369, -46.0438, -16.6369)
 0:0/0/physics_layer_0/polygon_0/one_way = true
 0:0/0/terrains_peering_bit/bottom_side = 0
 
@@ -72,7 +73,7 @@ texture_region_size = Vector2i(100, 100)
 0:0/0 = 0
 0:0/0/terrain_set = 0
 0:0/0/terrain = 0
-0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-50, -50, 50, -50, 50, -15.377918, -50, -16.636932)
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-50, -50, 50, -50, 50, -15.3779, -50, -16.6369)
 0:0/0/physics_layer_0/polygon_0/one_way = true
 0:0/0/terrains_peering_bit/right_side = 0
 0:0/0/terrains_peering_bit/bottom_right_corner = 0
@@ -101,9 +102,9 @@ physics_layer_0/collision_layer = 257
 physics_layer_1/collision_layer = 1
 terrain_set_0/mode = 0
 terrain_set_0/terrain_0/name = "one_way_ground"
-terrain_set_0/terrain_0/color = Color(0.31191492, 0.27503043, 0.8415054, 1)
+terrain_set_0/terrain_0/color = Color(0.311915, 0.27503, 0.841505, 1)
 terrain_set_0/terrain_1/name = "ground"
-terrain_set_0/terrain_1/color = Color(0.75865316, 0.122949906, 0.52317804, 1)
+terrain_set_0/terrain_1/color = Color(0.758653, 0.12295, 0.523178, 1)
 sources/0 = SubResource("TileSetAtlasSource_rcqyt")
 sources/1 = SubResource("TileSetAtlasSource_rhffh")
 sources/2 = SubResource("TileSetAtlasSource_3la57")
@@ -114,6 +115,110 @@ sources/6 = SubResource("TileSetAtlasSource_ghdxt")
 sources/7 = SubResource("TileSetAtlasSource_ias2f")
 
 [node name="area1" type="Node2D"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_left = -302.0
+offset_top = -507.0
+offset_right = -202.0
+offset_bottom = -407.0
+scale = Vector2(9.30833, 7.5868)
+texture = ExtResource("1_jt1qh")
+
+[node name="TextureRect7" type="TextureRect" parent="."]
+offset_left = 2459.0
+offset_top = -545.0
+offset_right = 2559.0
+offset_bottom = -445.0
+scale = Vector2(9.30833, 7.5868)
+texture = ExtResource("1_jt1qh")
+
+[node name="TextureRect11" type="TextureRect" parent="."]
+offset_left = 4780.0
+offset_top = -1319.0
+offset_right = 4880.0
+offset_bottom = -1219.0
+scale = Vector2(9.30833, 7.5868)
+texture = ExtResource("1_jt1qh")
+
+[node name="TextureRect4" type="TextureRect" parent="."]
+offset_left = 694.0
+offset_top = -502.0
+offset_right = 794.0
+offset_bottom = -402.0
+scale = Vector2(-10.0012, -6.56368)
+texture = ExtResource("1_jt1qh")
+
+[node name="TextureRect8" type="TextureRect" parent="."]
+offset_left = 3801.0
+offset_top = -503.0
+offset_right = 3901.0
+offset_bottom = -403.0
+scale = Vector2(-10.0012, -6.56368)
+texture = ExtResource("1_jt1qh")
+
+[node name="TextureRect3" type="TextureRect" parent="."]
+offset_left = 1674.0
+offset_top = -507.0
+offset_right = 1774.0
+offset_bottom = -407.0
+scale = Vector2(9.30833, 7.5868)
+texture = ExtResource("1_jt1qh")
+
+[node name="TextureRect13" type="TextureRect" parent="."]
+offset_left = 3400.0
+offset_top = -1850.0
+offset_right = 3500.0
+offset_bottom = -1750.0
+scale = Vector2(9.30833, 7.5868)
+texture = ExtResource("1_jt1qh")
+
+[node name="TextureRect9" type="TextureRect" parent="."]
+offset_left = 3206.0
+offset_top = -537.0
+offset_right = 3306.0
+offset_bottom = -437.0
+scale = Vector2(9.30833, 7.5868)
+texture = ExtResource("1_jt1qh")
+
+[node name="TextureRect2" type="TextureRect" parent="."]
+offset_left = 1703.0
+offset_top = -503.0
+offset_right = 1803.0
+offset_bottom = -403.0
+scale = Vector2(-10.7523, 7.76301)
+texture = ExtResource("1_jt1qh")
+
+[node name="TextureRect12" type="TextureRect" parent="."]
+offset_left = 5403.0
+offset_top = -1822.0
+offset_right = 5503.0
+offset_bottom = -1722.0
+scale = Vector2(-10.7523, 7.76301)
+texture = ExtResource("1_jt1qh")
+
+[node name="TextureRect10" type="TextureRect" parent="."]
+offset_left = 4825.0
+offset_top = -1290.0
+offset_right = 4925.0
+offset_bottom = -1190.0
+scale = Vector2(-10.7523, 7.76301)
+texture = ExtResource("1_jt1qh")
+
+[node name="TextureRect6" type="TextureRect" parent="."]
+offset_left = 2804.0
+offset_top = -1270.0
+offset_right = 2904.0
+offset_bottom = -1170.0
+scale = Vector2(-10.7523, 7.76301)
+texture = ExtResource("1_jt1qh")
+
+[node name="TextureRect5" type="TextureRect" parent="."]
+offset_left = 1738.0
+offset_top = -1271.0
+offset_right = 1838.0
+offset_bottom = -1171.0
+scale = Vector2(-10.7523, 7.76301)
+texture = ExtResource("1_jt1qh")
 
 [node name="TileMap2" type="TileMap" parent="."]
 position = Vector2(-2, 0)

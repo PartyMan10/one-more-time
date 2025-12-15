@@ -23,16 +23,16 @@ offset_left = 76.0
 offset_top = 382.0
 offset_right = 176.0
 offset_bottom = 482.0
-scale = Vector2(3.599338, 3.6559503)
+scale = Vector2(3.59934, 3.65595)
 texture_normal = ExtResource("3_23i1o")
 
 [node name="Quit" type="TextureButton" parent="."]
 layout_mode = 0
 offset_left = 626.0
-offset_top = 386.00003
+offset_top = 386.0
 offset_right = 726.0
-offset_bottom = 486.00003
-scale = Vector2(3.9100604, 3.5280533)
+offset_bottom = 486.0
+scale = Vector2(3.91006, 3.52805)
 texture_normal = ExtResource("4_8qnmo")
 
 [connection signal="pressed" from="Play" to="." method="_on_play_pressed"]

@@ -1,11 +1,10 @@
-[gd_scene load_steps=9 format=3 uid="uid://b3yfxv4mwpd0e"]
+[gd_scene load_steps=8 format=3 uid="uid://b3yfxv4mwpd0e"]
 
 [ext_resource type="Script" uid="uid://c063wp0muftp8" path="res://ASSET/SCRIPT/player-controler.gd" id="1_dptqk"]
 [ext_resource type="Texture2D" uid="uid://ccabpiuthvjjf" path="res://ASSET/IMAGE/Untitled_Artwork-1.png" id="3_8hltt"]
 [ext_resource type="Texture2D" uid="uid://bxkm8urss4gy1" path="res://ASSET/IMAGE/Untitled_Artwork-2.png" id="4_y7onx"]
-[ext_resource type="Texture2D" uid="uid://dgf7rl7m1wxd3" path="res://ASSET/IMAGE/Untitled_Artwork-3.png" id="5_r4t3r"]
 [ext_resource type="Texture2D" uid="uid://c2ymum5le7lpr" path="res://ASSET/IMAGE/Untitled_Artwork-4.png" id="6_qvaoj"]
-[ext_resource type="Texture2D" uid="uid://dahwoj3bcqyt8" path="res://ASSET/IMAGE/Untitled_Artwork-5.png" id="7_3dt6t"]
+[ext_resource type="Texture2D" uid="uid://kb2paqtgj3q1" path="res://ASSET/IMAGE/Untitled_Artwork-5.png" id="7_3dt6t"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_r4ryh"]
 animations = [{
@@ -25,9 +24,6 @@ animations = [{
 "texture": ExtResource("4_y7onx")
 }, {
 "duration": 1.0,
-"texture": ExtResource("5_r4t3r")
-}, {
-"duration": 1.0,
 "texture": ExtResource("6_qvaoj")
 }, {
 "duration": 0.25,
@@ -44,13 +40,13 @@ height = 90.0
 
 [node name="player" type="CharacterBody2D"]
 position = Vector2(0, -10)
-scale = Vector2(2.5427701, 2.3557742)
+scale = Vector2(2.54277, 2.35577)
 script = ExtResource("1_dptqk")
 speed = 20.0
 Jump_power = 50.0
 
 [node name="Camera2D" type="Camera2D" parent="."]
-scale = Vector2(0.99999994, 0.99999994)
+scale = Vector2(1, 1)
 offset = Vector2(0, -15)
 zoom = Vector2(0.9, 0.9)
 position_smoothing_speed = 8.0
@@ -59,7 +55,7 @@ position_smoothing_speed = 8.0
 texture_filter = 1
 position = Vector2(21, -29)
 sprite_frames = SubResource("SpriteFrames_r4ryh")
-animation = &"idle"
+animation = &"walk"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(20, -39)
